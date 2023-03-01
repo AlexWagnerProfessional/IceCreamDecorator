@@ -9,8 +9,8 @@ public class Main {
 
         // REMEMBER: Must calculate cost!
 
-        // Debug
-        ///*
+        // Debug: Successful!
+        /*
         IceCreamCup cuppy = new IceCreamCup(2, "vanilla", "large");
         IceCreamCone coney = new IceCreamCone(1, "chocolate");
         cuppy.examine();
@@ -19,6 +19,18 @@ public class Main {
         coney.printCost();
         //*/
 
-        // TODO: Make actual decorators now that the basic ice cream functionality is there
+        // DECORATOR TEST: SPRINKLES
+        IceCreamSprinkler sprinky = new IceCreamSprinkler(new IceCreamCone(2, "chocolate"));
+        sprinky.sprinkle();
+        sprinky.sprinkle();
+        sprinky.examine();
+        sprinky.printCost();
+
+        IceCreamSprinkler spunky = new IceCreamSprinkler(new IceCreamCup(1, "snickerdoodle", "large"));
+        spunky.sprinkle();
+        spunky.sprinkle();
+        spunky.sprinkle();
+        spunky.examine();
+        spunky.printCost();
     }
 }
