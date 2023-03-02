@@ -4,6 +4,9 @@ public abstract class IceCreamDecorator implements IceCream {
 
     // Attributes will include some useful costs:
     float sprinkleFactor = (float) 0.3;
+    float whippedCreamFactor = (float) 0.35;
+    float fruitFactor = (float) 0.4;
+    float waferFactor = (float) 0.45;
 
     // Constructor
     public IceCreamDecorator(IceCream decoratedIceCream){

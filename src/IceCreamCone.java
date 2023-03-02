@@ -10,7 +10,7 @@ public class IceCreamCone implements IceCream {
     }
 
     public void examine(){
-        System.out.println("You have ordered a " + scoops + "-scoop " + flavor + " ice cream cone.");
+        System.out.println("You are ordering a " + scoops + "-scoop " + flavor + " ice cream cone.");
         // More lines appear underneath in the decorators, for example:
 
         // You have a 2-scoop rocky road ice cream cone.
