@@ -4,7 +4,7 @@ A simple program made in preparation to assist students with Software Design hom
 
 ## Usage
 
-Run in an IDE of your choice, ideally Visual Studio Code, and type answers to the questions in the console. Responses are case-insensitive, but words should be exact matches to the terms it asks for, lest it default to a fairly plain option.
+Run Main.java in an IDE of your choice, ideally Visual Studio Code, and type answers to the questions in the console. Responses are case-insensitive, but words should be exact matches to the terms it asks for, lest it default to a fairly plain option.
 
 
 ## Original Prompt
